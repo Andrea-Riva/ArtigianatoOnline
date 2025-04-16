@@ -1,0 +1,20 @@
+.cart-btn {
+
+    bottom: 70px;
+    right: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cart-btn:hover {
+    background-color: #bfbfbf;
+    transform: scale(1.1);
+}

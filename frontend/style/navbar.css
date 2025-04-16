@@ -1,0 +1,10 @@
+.navbar-brand img {
+    height: 30px;
+}
+
+/* Nuovi stili per la navbar trasparente con ombra */
+.navbar-transparent {
+    background-color: rgba(255, 255, 255, 0.444) !important;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
