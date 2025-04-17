@@ -1,0 +1,53 @@
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.card img {
+    object-fit: cover;
+    height: 100%;
+    min-height: 200px;
+}
+
+.btn.rounded-circle {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn.rounded-circle:hover {
+    transform: scale(1.1);
+    background-color: #ababab;
+}
+
+.btn.rounded-circle .fas {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn.rounded-circle:hover .fas {
+    transform: translateY(-2px);
+}
